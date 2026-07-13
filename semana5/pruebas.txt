@@ -1,0 +1,13 @@
+
+1. Ruta: http://localhost:3000
+   ¿Qué ocurre?: El navegador realiza una solicitud GET a la raíz del servidor. Este responde mostrando en pantalla el texto plano
+   "Servidor activo", lo cual confirma que el servidor Express se ha iniciado y está escuchando correctamente en el puerto 3000.
+
+2. Ruta: http://localhost:3000/saludo
+   ¿Qué ocurre?: Al acceder a esta dirección, el servidor procesa la solicitud GET específica para la ruta '/saludo' y
+    devuelve en el navegador el mensaje "Hola comunidad".
+
+3. Ruta: http://localhost:3000/mensaje/juan
+   ¿Qué ocurre?: Esta ruta utiliza un parámetro dinámico en la URL (:nombre). El servidor extrae el valor
+   "juan" mediante 'req.params.nombre' y responde de manera personalizada mostrando en el navegador el texto "Hola juan".
+   Si se cambia "juan" por cualquier otro nombre en la URL, el saludo se adaptará automáticamente.
