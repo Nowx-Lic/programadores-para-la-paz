@@ -1,0 +1,14 @@
+¿Qué hace la ruta POST /reporte?
+Esta ruta está diseñada para recibir y registrar información enviada por los usuarios hacia el servidor. A diferencia de una ruta GET
+(que solo muestra datos), el método POST procesa un objeto JSON que viaja oculto en el cuerpo de la solicitud (req.body.mensaje).
+Al recibirlo, el servidor responde confirmando el éxito de la operación y devolviendo el mismo mensaje para validar que la información
+llegó correctamente.
+
+¿Para qué sirve en una aplicación comunitaria?
+Tiene una utilidad enorme para el beneficio colectivo, ya que funciona como un buzón digital automatizado. En el día a día de una comunidad,
+sirve para:
+Reportar emergencias o daños: Los vecinos pueden notificar en tiempo real incidentes como un poste de luz dañado, un bache en la vía o la
+falta de agua.
+Alertas de seguridad: Permite enviar avisos rápidos sobre situaciones sospechosas o emergencias médicas directamente a un sistema central.
+Crear solicitudes o quejas: Facilita que la junta de acción comunal reciba propuestas, reclamos o ideas de manera organizada, transparente
+y sin necesidad de papeleo manual.

@@ -1,0 +1,7 @@
+Las APIs son herramientas fundamentales para la organización comunitaria porque transforman el desorden de los canales tradicionales
+en un sistema estructurado y eficiente. Al actuar como puentes tecnológicos, permiten centralizar en una sola base de datos todos los
+reportes, quejas o alertas que los vecinos envían desde diferentes formularios o aplicaciones. Además, su capacidad de automatización
+facilita que una alerta de emergencia se difunda en tiempo real a través de bots en redes sociales o mensajería instantánea. Por último,
+abren la puerta a una interconexión segura con entidades públicas como bomberos o servicios médicos, agilizando las respuestas sin perder
+tiempo valioso en transcripciones manuales. En definitiva, cuando los ciudadanos ven que su información se gestiona de forma transparente
+y genera acciones inmediatas, se fortalece la confianza colectiva y se motiva una participación activa en la toma de decisiones.
