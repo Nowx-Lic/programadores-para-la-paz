@@ -1,0 +1,11 @@
+Repositorio: Es como una carpeta inteligente en la nube o en tu equipo donde guardas ordenadamente
+todo el proyecto. Lo genial es que no solo almacena los archivos actuales, sino que memoriza su historial
+completo para que puedas regresar en el tiempo si algo sale mal
+
+Commit: Es el equivalente a tomarle una foto o hacer un guardado permanente a tu código en un momento específico.
+Cada vez que terminas una tarea o arreglas un fallo, creas un commit con una nota breve para recordar qué
+cambiaste y por qué
+
+Push: Es la acción de subir o "empujar" todos los commits que tienes guardados en tu computadora hacia el servidor
+de GitHub. Sirve para que tu trabajo se sincronice en la red, quede respaldado de forma segura y tus compañeros
+puedan ver tus avances
