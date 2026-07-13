@@ -1,8 +1,0 @@
-Llevar un registro con Git es vital porque funciona como una máquina del tiempo para tu código.
-Cuando programas, es súper común que al meter un cambio algo se rompa y deje de funcionar; sin Git,
-descubrir dónde metiste la pata se vuelve una pesadilla a ciegas. Con un historial de commits puedes
-ver qué cambiaste exactamente, quién lo hizo y volver a una versión estable en segundos sin perder tu
-trabajo. Además, cuando colaboras con más personas, este orden evita que los programadores se pisen los
-archivos o borren los avances del otro, haciendo que todo el equipo avance en sintonía. Al final, usar
-estas herramientas no es un capricho de la carrera; es lo único que te garantiza que un proyecto de software
-pueda crecer de forma segura, transparente y ordenada sin que se convierta en un caos absoluto.
