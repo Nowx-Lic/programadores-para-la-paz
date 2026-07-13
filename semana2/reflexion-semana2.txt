@@ -1,0 +1,8 @@
+Saber usar la terminal es clave para cualquier desarrollador porque te da una velocidad y un control
+total sobre tu proyecto que la interfaz gráfica no puede ofrecer. En lugar de dar clics interminables,
+la línea de comandos te permite moverte entre carpetas, crear archivos y automatizar tareas repetitivas
+en segundos sin soltar el teclado. Además, la terminal es el puente directo para trabajar con herramientas
+esenciales como Git y conectarte de forma segura a servidores remotos en la nube. Dejar de verla como una
+pantalla intimidante y dominar sus comandos básicos no solo optimiza tu tiempo en el día a día, sino que te
+prepara para solucionar problemas complejos cuando el sistema visual falla. Al final, se convierte en tu centro
+de control definitivo para mantener un código limpio, estructurado y listo para colaborar profesionalmente.
