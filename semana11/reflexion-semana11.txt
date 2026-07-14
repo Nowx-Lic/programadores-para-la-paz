@@ -1,0 +1,18 @@
+Una plataforma de participación ciudadana requiere una base de datos para estructurar, organizar y dar seguimiento a las propuestas
+y reportes de la comunidad, evitando que la información se disperse o se pierda en el tiempo
+Sin este soporte ordenado, sería imposible identificar patrones de problemáticas comunes en los barrios o medir con transparencia
+el verdadero impacto del control social
+Por su parte, la autenticación de usuarios es el pilar que valida la legitimidad de la participación, asegurando que detrás de cada
+causa o apoyo haya un ciudadano real y no bots o cuentas falsas duplicando votos
+Además, el login permite definir roles y proteger rutas administrativas críticas, impidiendo que personas no autorizadas manipulen,
+editen o eliminen de manera malintencionada las evidencias de la veeduría
+Finalmente, la protección de la información y la privacidad por diseño son indispensables para blindar la integridad física y digital
+de los líderes comunitarios y denunciantes
+El almacenamiento descuidado de datos sensibles, como direcciones exactas o documentos de identidad, puede exponer a los ciudadanos
+a represalias, acoso o suplantación de identidad
+Garantizar la seguridad técnica mediante el cifrado, la minimización de datos y los registros de auditoría (logs) construye un
+entorno de confianza mutua entre la tecnología y el territorio
+Cuando los usuarios saben que sus datos están seguros, se involucran con mayor libertad, sabiendo que su voz es escuchada
+sin que esto ponga en riesgo su privacidad
+En conclusión, estas tres tecnologías no son simples requisitos de desarrollo, sino el motor ético y operativo
+que hace viable, segura y creíble la democracia participativa digital

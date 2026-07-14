@@ -1,0 +1,34 @@
+La interfaz de la plataforma está diseñada para ser intuitiva, limpia y accesible desde cualquier dispositivo, dividida en las
+siguientes secciones principales:
+
+1.Formulario para crear una causa
+
+Ubicado en la parte superior o en una pestaña de fácil acceso. Contiene:
+- Campo de texto: Título de la causa (breve y directo)
+- Área de texto: Descripción (para detallar la problemática o iniciativa)
+- Menú desplegable: Categoría/Sector (ej. Educación, Vías, Seguridad)
+- Botón de acción: Publicar Causa (registra los datos en la base de datos)
+- Nota de privacidad: Un aviso que recuerda al usuario no ingresar datos personales o sensibles en la descripción
+
+2.Vista de causas disponibles (Muro Comunitario)
+Es la sección principal de la pantalla donde se muestran las causas activas en formato de tarjetas individuales (cards) ordenadas
+cronológicamente. Cada tarjeta muestra:
+- Título de la causa en negrita
+- Categoría o sector destacado con una etiqueta de color
+- Descripción resumida del caso
+- Fecha de publicación formateada de manera amigable (ej. Hace 2 días)
+
+3.Botón para apoyar una causa y Contador de apoyos
+
+Dentro de cada tarjeta de la Vista de causas, se integran estas dos funciones:
+- Botón de apoyo: Un botón interactivo y visible (ej. Apoyar Causa con un ícono de mano arriba o corazón) que permite al usuario
+registrado sumar su respaldo con un solo clic
+- Contador de apoyos: Un número dinámico ubicado al lado del botón que indica visualmente el total acumulado (ej. 24 apoyos recibidos)
+Al hacer clic en el botón, el número se actualiza al instante sin recargar la página
+
+4.Principio de privacidad y seguridad en la interfaz
+La interfaz está diseñada bajo el principio de privacidad por defecto:
+- No se muestran nombres completos, correos electrónicos ni datos de contacto de quienes crearon o apoyaron las causas
+- Toda la información que se expone es estrictamente comunitaria y de interés público
+- El botón de apoyo valida la sesión en segundo plano de forma segura (autenticación) sin revelar públicamente qué usuarios específicos
+han votado por cada causa

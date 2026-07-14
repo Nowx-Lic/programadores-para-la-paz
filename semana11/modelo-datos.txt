@@ -1,0 +1,23 @@
+Entidad: Causa
+Campos principales:
+- id (Llave primaria, Autoincremental / UUID)
+- titulo (Texto corto, obligatorio)
+- descripcion (Texto largo, obligatorio)
+- sector (Texto, categoría de la problemática, ej: Educación, Vías)
+- fecha_creacion (Fecha y hora, por defecto momento actual)
+- estado (Texto, valores: Activa, En revisión, Cerrada)
+
+Propósito:
+Almacenar de forma estructurada las iniciativas, necesidades y causas de control social propuestas por la comunidad que serán
+visibles públicamente en la plataforma
+
+Entidad: Apoyo
+Campos principales:
+- id (Llave primaria, Autoincremental / UUID)
+- causa_id (Llave foránea, relación directa con el id de la Causa)
+- usuario_id (Llave foránea, relación con el usuario registrado que apoya)
+- fecha_apoyo (Fecha y hora de la acción)
+
+Propósito:
+Registrar y contabilizar de manera única la validación o respaldo que cada ciudadano otorga a una causa específica, permitiendo medir
+el nivel de prioridad y participación de la comunidad en cada iniciativa

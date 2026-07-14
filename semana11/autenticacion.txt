@@ -1,0 +1,7 @@
+El login es el proceso de autenticación que permite identificar y validar la identidad de un usuario antes de concederle acceso a la plataforma
+Es indispensable proteger ciertas rutas del sistema porque estas gestionan acciones administrativas o contienen registros internos y comunitarios
+Si estas rutas estuvieran abiertas, cualquier persona podría alterar, borrar o manipular la información de la veeduría sin autorización
+Además, la seguridad del sistema exige ocultar estrictamente datos sensibles que pongan en riesgo la privacidad de los ciudadanos
+Bajo ninguna circunstancia deben exponerse públicamente contraseñas de cuentas, números de documentos de identidad, teléfonos o direcciones físicas
+Asimismo, se deben proteger de forma técnica los tokens de sesión, credenciales de bases de datos y las claves de API de la plataforma
+De esta manera, garantizar la autenticación y el bloqueo de rutas asegura un entorno de participación ciudadana transparente, confiable y seguro
