@@ -1,0 +1,26 @@
+=== 5 Prácticas de Seguridad para Plataformas Comunitarias ===
+
+1. No exponer datos personales (Privacidad de datos):
+Garantizar que la información sensible de los vecinos (como números de teléfono, direcciones exactas de residencia o
+correos electrónicos) no sea visible públicamente en la plataforma. Solo se deben mostrar los datos estrictamente necesarios
+para el reporte y bajo el consentimiento explícito de cada usuario.
+
+2. Proteger credenciales (Autenticación fuerte):
+Implementar políticas que exijan el uso de contraseñas robustas (combinando mayúsculas, minúsculas, números y caracteres especiales).
+Además, se deben almacenar estas contraseñas de forma segura en la base de datos aplicando algoritmos de encriptación (hashing con salt,
+como bcrypt) y nunca en texto plano.
+
+3. Usar conexiones seguras (Cifrado de datos en tránsito):
+Configurar y forzar el uso del protocolo HTTPS mediante certificados SSL/TLS. Esto asegura que toda la información que viaja desde
+el navegador de los vecinos hacia el servidor de la plataforma esté completamente cifrada, evitando que terceros puedan interceptar
+o espiar los datos transmitidos en redes públicas.
+
+4. Registrar accesos (Auditoría de actividad o Logs):
+Mantener un registro interno, automático y protegido de todas las acciones críticas que se realizan en el sistema
+(quién inicia sesión, quién modifica un reporte, desde qué IP se accede). Esto permite auditar la plataforma ante cualquier actividad
+sospechosa o comportamiento inusual de forma rápida.
+
+5. Limitar acceso a información sensible (Principio de mínimo privilegio):
+Restringir las funciones y datos del sistema mediante roles específicos (por ejemplo: vecino, moderador, administrador).
+Un usuario común solo debe tener acceso a sus propios datos y reportes públicos, mientras que las funciones de edición de base
+de datos o visualización de perfiles privados deben reservarse estrictamente para los administradores de confianza.

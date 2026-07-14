@@ -1,0 +1,8 @@
+La seguridad digital es el pilar fundamental que sostiene la confianza ciudadana en cualquier plataforma participativa.
+Cuando una comunidad decide organizarse en el entorno digital, comparte datos personales, opiniones e incidencias del sector.
+Proteger esta información mediante un control de accesos estricto evita filtraciones que vulneren la privacidad del barrio.
+Asimismo, un sistema seguro impide sabotajes o alteraciones malintencionadas en las votaciones y reportes comunitarios.
+Si la plataforma es hackeada o manipulada, se destruye de inmediato la credibilidad de todo el proceso de participación.
+El uso de tecnologías abiertas permite además auditar el código para garantizar que no existan vulnerabilidades ocultas.
+Esto otorga soberanía tecnológica a los vecinos, permitiéndoles gestionar y defender su infraestructura digital desde adentro.
+En definitiva, la seguridad digital no es un simple detalle técnico, sino una garantía ética clave para la democracia local.

@@ -1,0 +1,12 @@
+=== Información del Sistema (Pregunta 7) ===
+
+1. ¿Qué muestra cada comando?
+- 'uname -a': Muestra toda la información del sistema operativo y del kernel de Linux, incluyendo su nombre, el hostname de la máquina,
+la versión de compilación del núcleo y la arquitectura del hardware (como x86_64).
+- 'whoami': Muestra el nombre exacto del usuario que tiene la sesión activa en la terminal y bajo el cual se están ejecutando
+los procesos actuales.
+
+2. ¿Por qué es útil conocer esta información al administrar un servidor?
+Es fundamental porque permite verificar la compatibilidad de las aplicaciones que se van a instalar, auditar si el kernel
+del sistema requiere parches de seguridad urgentes y confirmar qué nivel de privilegios tiene el usuario actual antes de realizar
+modificaciones críticas en las configuraciones del servidor.
