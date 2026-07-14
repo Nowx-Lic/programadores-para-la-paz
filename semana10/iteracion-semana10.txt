@@ -1,0 +1,21 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+Historia 1: Permitir al ciudadano reportar una incidencia con su descripción y categoría
+Historia 2: Configurar la notificación automática en Telegram para el coordinador al recibir un nuevo reporte
+
+2. ¿Por qué son las más importantes?
+
+Estas dos tareas representan el Producto Mínimo Viable de nuestra solución. Sin la capacidad de crear un reporte, la plataforma
+simplemente no tiene datos para trabajar; y sin la alerta de Telegram, el equipo de veeduría no se enteraría a tiempo de las
+emergencias de la comunidad. Resolver estas dos historias primero valida que la comunicación técnica de extremo a extremo
+(formulario -> servidor -> base de datos -> Telegram) funciona correctamente antes de añadir más pantallas o filtros
+
+3. ¿Qué significa para ti que una tarea esté terminada?
+Para mí significa que la funcionalidad no solo se programó, sino que ya es totalmente útil, segura y estable para el usuario
+final, sin dejar cabos sueltos ni dependencias a medias
+
+Nuestra Definición de Terminado incluye:
+- Funciona: La funcionalidad cumple con todo lo descrito en su historia de usuario sin romper el resto de la aplicación
+- Fue probada de extremo a extremo: Simulamos el flujo real del usuario (por ejemplo, enviar un reporte de prueba y verificar que llegue
+limpio y seguro a Telegram) y no genera errores en la consola
+- Quedó registrada en Git: El código está limpio, optimizado, libre de variables sensibles (.env) y subido correctamente a nuestro
+repositorio de GitHub

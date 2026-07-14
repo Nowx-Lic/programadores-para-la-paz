@@ -1,0 +1,17 @@
+1. ¿Qué evento activa el flujo?
+El flujo se activa mediante un nodo de tipo "Webhook" en n8n. Este nodo se ejecuta automáticamente cada vez que un ciudadano
+envía un nuevo formulario de reporte de incidencias desde la plataforma web comunitaria
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviará un mensaje automatizado al canal de coordinación del equipo de veeduría con la siguiente estructura:
+"⚠️ ¡Nuevo reporte comunitario recibido!
+• Categoría: [Categoría de la incidencia, ej: Alumbrado Público]
+• Fecha: [Fecha de creación]
+• ID del Reporte: #Ref-[Número de ID]
+Por favor, ingresa al panel de administración para revisar los detalles del caso y asignar un encargado."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por políticas de privacidad, seguridad y protección de datos, queda estrictamente prohibido enviar a través de Telegram:
+- Datos de identificación personal: Nombres completos, números de cédula (documentos de identidad) o firmas del denunciante.
+- Datos de contacto directo: Números de teléfono personal, correos electrónicos o direcciones exactas de domicilio de los ciudadanos.
+- Credenciales: Claves de acceso, tokens o datos sensibles de la base de datos que pongan en riesgo la seguridad de la plataforma.
