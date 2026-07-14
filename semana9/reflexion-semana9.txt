@@ -1,0 +1,8 @@
+Cuando una comunidad se organiza digitalmente, deposita toda su confianza en la plataforma para debatir, reportar o votar.
+Si el servidor se cae constantemente en los momentos más importantes, esa comunicación se rompe y la gente deja de participar.
+La inestabilidad hace que los usuarios sientan que la herramienta no es seria ni útil para resolver sus problemas reales.
+Además, la seguridad en el servidor es vital para proteger los datos personales de los vecinos y evitar que sean filtrados.
+Un sistema vulnerable puede ser manipulado de forma malintencionada, alterando votaciones comunitarias o información clave.
+Si los usuarios sospechan que su privacidad o sus opiniones corren peligro, el espacio participativo se destruye de inmediato.
+Mantener un servidor estable y seguro es lo que garantiza que los ciudadanos puedan expresarse de forma continua y libre.
+En conclusión, la solidez técnica del servidor no es un simple detalle, sino el motor que sostiene la confianza de toda la comunidad

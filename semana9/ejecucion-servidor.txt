@@ -1,0 +1,16 @@
+¿Qué me pasó cuando ejecuté node server.js?
+Al lanzar ese comando en mi consola, lo que hice fue despertar al servidor. El entorno de Node.js se puso en marcha de inmediato
+y se quedó "escuchando" en el puerto 3000 de mi computadora. Básicamente, mi terminal se transformó en un receptor atento, listo
+y esperando a que yo (o cualquiera) le haga una petición desde el navegador.
+
+¿Qué mensaje vi en mi terminal?
+En cuanto le di enter a node server.js, la consola me respondió con un mensaje de confirmación para darme tranquilidad. Aunque
+puede variar según cómo lo haya programado, lo normal es que me haya salido algo como:
+
+Servidor corriendo en el puerto 3000 o Servidor activo y funcionando.
+
+¿Qué ocurrió cuando visité la ruta /estado?
+Cuando abrí el navegador y fui a http://localhost:3000/estado, lo que hice fue hacerle una pregunta directa al servidor.
+Este recibió mi petición y me devolvió una respuesta en la pantalla para decirme cómo estaba todo. Por lo general, me mostró
+un mensaje de texto sencillo o un formato JSON que decía { "estado": "Servidor funcionando",  "servicio": "API comunitaria" }
+, confirmándome que todo el sistema estaba respondiendo de maravilla y sin caídas.

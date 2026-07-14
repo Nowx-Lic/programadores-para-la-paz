@@ -1,0 +1,22 @@
+Sistema operativo
+Es el programa base que corre en la máquina y se encarga de controlar la memoria, el almacenamiento y las conexiones de red.
+Básicamente, prepara el terreno técnico para que podamos instalar y ejecutar cualquier otra herramienta o aplicación de forma
+estable.
+
+Node.js
+Es el entorno que nos permite ejecutar código JavaScript directamente en el servidor, sin necesidad de usar un navegador web.
+Nos da todas las herramientas necesarias para procesar datos del backend y responder a las peticiones de los usuarios de forma
+rápida.
+
+Aplicación server.js
+Es nuestro archivo principal de código, donde escribimos la lógica del servidor usando Express. Aquí programamos las rutas que
+va a tener nuestra plataforma (como la ruta de inicio o la de estado) y definimos qué información debe responder a cada una.
+
+Puerto
+Es un canal de comunicación virtual con un número asignado (por ejemplo, el 3000) dentro de la IP del servidor. Sirve para que
+las conexiones de red que vienen de fuera sepan exactamente a qué programa deben dirigirse sin confundirse con otros procesos.
+
+Logs
+Son archivos de texto donde el servidor va anotando de manera automática todo lo que pasa en el sistema. Nos sirven para
+monitorear el comportamiento de la app en tiempo real, ver las peticiones que llegan y rastrear de inmediato qué falló cuando
+el código tira un error.
