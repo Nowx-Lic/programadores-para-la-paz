@@ -1,0 +1,8 @@
+Recibir datos estructurados como JSON es clave para que la participación ciudadana no se quede solo en buenas intenciones.
+Cuando un reporte llega con campos definidos, el sistema lo procesa, clasifica y deriva de forma automática al área encargada.
+Esto elimina el desorden de las redes sociales y evita que las quejas se pierdan en la burocracia o en el olvido manual.
+Además, reduce drásticamente los tiempos de respuesta, permitiendo pasar de semanas de espera a soluciones en pocos días.
+Para la comunidad, contar con datos organizados es una herramienta de auditoría y control ciudadano sumamente poderosa.
+Permite generar estadísticas reales y mapas de calor sobre los problemas más graves que están afectando al territorio.
+Con estas métricas en la mano, los vecinos pueden presionar con argumentos técnicos y evidencias sólidas ante la alcaldía.
+En definitiva, la tecnología estructurada convierte la queja informal en una acción colectiva organizada, transparente y eficiente.

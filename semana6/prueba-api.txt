@@ -1,0 +1,16 @@
+Resultados de la prueba de la ruta /registro:
+
+Al enviar la petición POST a http://localhost:3000/registro con el JSON de prueba, el servidor procesa los datos recibidos mediante
+'req.body' y devuelve una respuesta con un estado HTTP 200 OK y la siguiente estructura en formato JSON:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación de la respuesta:
+1. "estado": Confirma explícitamente que el servidor recibió y procesó la información de manera exitosa.
+2. "nombre" y "mensaje": Devuelve exactamente las variables ("Maria" y "Hola comunidad") que extrajo del cuerpo de la petición
+(req.body), demostrando que la comunicación bidireccional entre el cliente y el servidor funciona perfectamente gracias al middleware
+'express.json()'.
