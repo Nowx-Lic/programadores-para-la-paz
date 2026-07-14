@@ -1,0 +1,7 @@
+Ejemplo 1:
+{
+    "mensaje": "Reporte registrado",
+    "reporte": {
+        "id": 1
+    }
+}

@@ -1,0 +1,21 @@
+Resultados al consultar los reportes (Ruta GET /reportes):
+
+Al enviar una petición GET a la dirección http://localhost:3000/reportes, el servidor responde con un estado HTTP 200 OK
+y devuelve un arreglo (array) en formato JSON que contiene la lista de todos los reportes que han sido registrados previamente
+mediante la petición POST.
+
+Ejemplo de respuesta obtenida:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+¿Qué sucede a nivel técnico?
+1. El servidor accede al array en memoria llamado 'reportes'.
+2. Como se configuró 'res.json(reportes)', Express transforma automáticamente esta lista de JavaScript a formato JSON y la envía de
+vuelta al cliente.
+3. Al tratarse de almacenamiento en memoria, si el servidor se reinicia, este array volverá a vaciarse ([]), pero mientras el proceso
+de Node.js siga activo, conservará y mostrará cada reporte nuevo que vayamos agregando.
