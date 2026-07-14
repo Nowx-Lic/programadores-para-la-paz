@@ -1,0 +1,25 @@
+Entidad: Causa
+
+Campos principales:
+- id (Identificador único de la causa)
+- titulo (Nombre o resumen de la problemática o iniciativa)
+- descripcion (Detalle de la solicitud o necesidad comunitaria)
+- fecha (Día y hora en la que se registró la causa)
+
+¿Para qué sirve?
+Esta entidad sirve para registrar y almacenar de forma organizada las diferentes iniciativas, problemáticas o solicitudes de control
+social que los ciudadanos publican en la plataforma. Es el elemento central sobre el cual se agruparán los respaldos de la comunidad
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id (Identificador único del apoyo)
+- causa_id (Relación o enlace con el id de la Causa apoyada)
+- nombre (Nombre del ciudadano que brinda su respaldo)
+- fecha (Día y hora en la que se realizó la acción de apoyar)
+
+¿Para qué sirve?
+Esta entidad sirve para registrar cada una de las firmas o respaldos individuales que los ciudadanos otorgan a una causa específica.
+Al relacionarse directamente con la entidad Causa, permite llevar un conteo exacto y transparente de la participación para fundamentar
+la petición formal

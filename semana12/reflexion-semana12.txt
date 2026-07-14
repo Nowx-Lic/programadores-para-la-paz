@@ -1,0 +1,17 @@
+Durante este curso comprendí que la tecnología no es solo un fin técnico, sino un medio transformador para democratizar el control
+social y la veeduría
+El diseño de herramientas simples como "Petición en 3 Clics" demuestra que reducir la fricción en la usabilidad empodera a sectores
+históricamente excluidos
+Aprendí que el desarrollo con impacto social exige estructurar bases de datos robustas para que las demandas colectivas adquieran
+peso técnico y organizativo
+Asimismo, la integración de automatizaciones con n8n y Telegram nos permite mantener informada y unida a la comunidad en tiempo real
+ante cada avance
+Sin embargo, el aprendizaje más crítico ha sido la ética técnica: la privacidad por diseño y la minimización de datos no son opcionales
+Guardar solo lo estrictamente necesario y encriptar la información sensible protege de forma real la integridad y la vida de los líderes
+en el territorio
+La seguridad implementada mediante variables de entorno y el principio de mínimo privilegio garantizan plataformas estables, inmunes
+al sabotaje externo
+Por último, la documentación y el registro ordenado aseguran que estas soluciones sean sostenibles en el tiempo y replicables por
+otras comunidades
+En conclusión, la ingeniería de software con enfoque social traduce la indignación ciudadana en solicitudes institucionales viables,
+seguras y de alto impacto

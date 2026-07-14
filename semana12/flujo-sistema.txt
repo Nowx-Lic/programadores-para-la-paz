@@ -1,0 +1,19 @@
+1. Registro de la causa: Un ciudadano accede a la plataforma web y registra una nueva causa comunitaria
+(problemática o iniciativa) completando un formulario básico con un título descriptivo y los detalles del caso
+
+2. Almacenamiento seguro: El servidor de la aplicación recibe los datos ingresados y registra la causa de manera estructurada
+en la base de datos, asignándole un identificador único (ID) y un estado inicial Activo
+
+3. Visualización y respaldo: La causa se publica automáticamente en el muro comunitario de la plataforma, donde otros vecinos
+autenticados pueden visualizarla y manifestar su respaldo de forma segura presionando el botón Apoyar
+
+4. Procesamiento de apoyos: La base de datos vincula y registra de forma única cada apoyo a la causa respectiva, impidiendo
+votos duplicados, mientras que la interfaz actualiza de manera dinámica el contador público de firmas o respaldos
+
+5. Generación de la petición (PDF): Al alcanzar el objetivo de respaldos o al cerrarse el ciclo de recolección, el sistema
+extrae automáticamente la información de la causa junto con la cifra total de apoyos para estructurar y compilar un documento
+PDF formalizado de Derecho de Petición
+
+6. Notificación y radicación: El sistema automatizado (conectado a herramientas como n8n o Telegram) alerta al equipo de
+veeduría sobre la generación del documento, el cual queda listo en la plataforma para ser descargado, firmado digitalmente
+y radicado de forma oficial ante las autoridades institucionales competentes

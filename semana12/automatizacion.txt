@@ -1,0 +1,27 @@
+1. Evento que activa la automatización (Trigger):
+
+- Evento: Nueva Causa Registrada
+- Explicación: Se activa automáticamente en n8n mediante un Webhook inmediatamente después de que un ciudadano completa
+el formulario en la interfaz y los datos se guardan con éxito en la base de datos
+
+
+2. Mensaje que se envía:
+- Canal de destino: Grupo privado de Telegram del equipo de veeduría comunitaria.
+- Contenido del mensaje:
+   ¡Nueva causa registrada en la plataforma!
+
+   Título: [Título de la causa]
+   Categoría: [Categoría]
+   Fecha de creación: [Fecha]
+
+Por favor, ingresa al panel de administración de la plataforma para verificar los detalles y habilitar la recolección de apoyos de
+forma segura
+
+
+3. Información que NO debe enviarse por seguridad:
+Para cumplir con los principios de minimización de datos y privacidad por diseño, bajo ninguna circunstancia se debe incluir en el
+mensaje de Telegram:
+- Datos personales del creador de la causa (nombres completos, correos electrónicos, números de teléfono o documentos de identidad)
+- Direcciones residenciales exactas o datos de geolocalización sensible que puedan exponer la seguridad física de los líderes comunitarios
+- Credenciales del sistema, tokens de autenticación o enlaces directos que no requieran inicio de sesión previo (login) para visualizar la
+base de datos
